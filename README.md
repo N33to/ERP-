@@ -32,13 +32,14 @@ Um site único, com login e abas por perfil, rodando em hospedagem compartilhada
 - **Três regimes no financeiro** (caixa, competência e vencimento), porque o mesmo mês tem três números corretos e misturá-los é o que faz planilhas deixarem de fechar.
 - **Migração verificada, não suposta.** Na troca dos programas de mesa pelo site, os fechamentos de ponto e de financeiro de vários meses foram recalculados e **bateram número a número** com a versão anterior (testes de referência).
 
-## Resultados
+## Em números
 
-Informados pelo autor, a partir do uso na empresa:
+Medidos no próprio código:
 
-- Mais de 21 colaboradores atendidos pelo sistema
-- ~160 documentos processados por mês
-- Organização documental de **~40% para ~90%**
+- **9 módulos** e **74 tabelas** no banco
+- ~**47 mil linhas** de código próprio (PHP, JavaScript, CSS, SQL e scripts), fora bibliotecas de terceiros
+- **42 arquivos de teste automatizado**, incluindo testes de referência que comparam o resultado com a versão anterior
+- Cadastro com mais de **50 colaboradores** (ativos e desligados) migrados das planilhas
 
 ## Stack
 
