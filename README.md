@@ -12,7 +12,7 @@ Sistema web multiusuário, construído do zero, que concentra a administração 
 | **Última revisão de arquitetura** | Novembro de 2026: código sem comentários, funções longas quebradas em etapas, formatadores do front unificados (detalhes abaixo) |
 | **Módulos** | 9 |
 | **Tabelas** | 91 (75 do núcleo + 16 da operação de obras); 67 publicadas em [sql/esquema.sql](sql/esquema.sql) |
-| **Código próprio** | ~83,5 mil linhas, sem comentários e sem bibliotecas de terceiros |
+| **Código próprio** | ~87 mil linhas, sem comentários e sem bibliotecas de terceiros (o [mapa de pastas](ESTRUTURA.md) mostra 83,5 mil; o restante são os arquivos de segurança que ficam fora dele) |
 | **Testes** | 456 testes automatizados na suíte principal, todos passando; 49 arquivos de teste |
 | **Stack** | PHP 8.2+ · MySQL/MariaDB · JavaScript · HTML · CSS · Python |
 
