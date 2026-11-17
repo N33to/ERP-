@@ -37,8 +37,8 @@ Um site único, com login e abas por perfil, rodando em hospedagem compartilhada
 Medidos no próprio código:
 
 - **9 módulos** e **74 tabelas** no banco
-- ~**47 mil linhas** de código próprio (PHP, JavaScript, CSS, SQL e scripts), fora bibliotecas de terceiros
-- **42 arquivos de teste automatizado**, incluindo testes de referência que comparam o resultado com a versão anterior
+- ~**96 mil linhas** de código próprio (PHP, JavaScript, CSS, SQL e scripts, testes incluídos), fora bibliotecas de terceiros
+- **43 arquivos de teste automatizado**, incluindo testes de referência que comparam o resultado com a versão anterior
 - Cadastro com mais de **50 colaboradores** (ativos e desligados) migrados das planilhas
 
 ## Stack
