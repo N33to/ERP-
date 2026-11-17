@@ -2,6 +2,7 @@
 
 Mapa das pastas e arquivos de código. O código-fonte não é publicado neste repositório
 (é software de uso interno de uma empresa real); aqui fica a arquitetura.
+Arquivos de autenticação, sessão, criptografia, publicação e testes de invasão ficam fora deste mapa de propósito.
 
 ```text
 ├── app/   # código de aplicação (PHP, sem Composer)
@@ -49,6 +50,8 @@ Mapa das pastas e arquivos de código. O código-fonte não é publicado neste r
 │   │   │   ├── Lancamentos.php
 │   │   │   ├── Listas.php
 │   │   │   ├── NotaFiscal.php
+│   │   │   ├── NotasMaterial.php
+│   │   │   ├── NotasPeriodo.php
 │   │   │   ├── Painel.php
 │   │   │   ├── PainelExcel.php
 │   │   │   ├── Producao.php
@@ -126,6 +129,25 @@ Mapa das pastas e arquivos de código. O código-fonte não é publicado neste r
 │   ├── bootstrap.php
 │   ├── config.local.exemplo.php
 │   └── config.php
+├── docs/   # documentação
+│   └── regras/   # o porquê de cada regra, por módulo, arquivo e função (conteúdo não publicado)
+│       ├── README.md
+│       ├── acesso.md
+│       ├── banco.md
+│       ├── colaboradores.md
+│       ├── configuracao.md
+│       ├── empresas.md
+│       ├── financeiro.md
+│       ├── nucleo.md
+│       ├── operacao.md
+│       ├── ponto.md
+│       ├── scanner.md
+│       ├── scripts.md
+│       ├── servicos.md
+│       ├── site-e-paginas.md
+│       ├── telas.md
+│       ├── termos.md
+│       └── testes.md
 ├── public/   # única pasta exposta na web
 │   ├── assets/
 │   │   ├── css/
@@ -149,6 +171,8 @@ Mapa das pastas e arquivos de código. O código-fonte não é publicado neste r
 │   │       ├── financeiro.js
 │   │       ├── graficos.js
 │   │       ├── medicao.js
+│   │       ├── notas-material.js
+│   │       ├── notas-periodo.js
 │   │       ├── operacao-alocacao.js
 │   │       ├── operacao-consulta.js
 │   │       ├── operacao-indicadores.js
@@ -293,6 +317,7 @@ Mapa das pastas e arquivos de código. O código-fonte não é publicado neste r
 │   ├── test_medicao.php
 │   ├── test_nota_lida.php
 │   ├── test_notas_conferencia.php
+│   ├── test_notas_periodo.php
 │   ├── test_nucleo.php
 │   ├── test_orcamento_site.php
 │   ├── test_painel_conferencia.php
@@ -309,16 +334,16 @@ Mapa das pastas e arquivos de código. O código-fonte não é publicado neste r
 └── ESTRUTURA_TODOS_OS_BANCOS.sql
 ```
 
-## Tamanho (linhas, sem bibliotecas de terceiros)
+## Tamanho (linhas, sem bibliotecas de terceiros e sem comentários)
 
 | Linguagem | Linhas |
 |---|---:|
-| PHP | 58.073 |
-| JavaScript | 24.597 |
-| Python | 6.642 |
-| SQL | 5.185 |
-| CSS | 3.756 |
-| HTML | 478 |
-| PowerShell | 335 |
+| PHP | 49.461 |
+| JavaScript | 21.857 |
+| SQL | 4.390 |
+| Python | 4.088 |
+| CSS | 3.076 |
+| HTML | 431 |
+| PowerShell | 253 |
 
-_Arquivos: 278._
+_Arquivos: 283._
